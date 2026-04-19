@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Qickly links",
+  "version": "0.1.6",
+  "description": "Быстрый переход",
+  
+  "icons": {
+    "128": "pin_blue.png"
+  },
+
+  "action": {
+    "default_icon": "pin_blue_v1.png",
+    "default_popup": "popup.html",
+    "default_title": "Q_links"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ]
+}

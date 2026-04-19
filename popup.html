@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Быстрые ссылки</title>
+  <script src="popup.js"></script>
+  <style>
+    body {
+      background: #1a1a1a;
+      min-width: 100px;
+      margin: 0;
+      padding: 8px;
+      font-family: Arial, sans-serif;
+    }
+
+    .map-link {
+      display: block;
+      width: 100%;
+      height: 30px;
+      margin: 2px 0;
+      color: white;
+      background-color: rgb(42, 42, 121);
+      text-align: center;
+      line-height: 30px;
+      text-decoration: none;
+      cursor: pointer;
+      border: none;
+      font-family: inherit;
+      font-size: 12px;
+      font-weight: 700;
+      border-radius: 6px;
+      transition: background-color 0.2s;
+    }
+
+    .map-link:hover {
+      background-color: rgb(52, 52, 150);
+    }
+
+    .region {
+      display: inline-block;
+      width: 30%;
+      height: 24px;
+      font-size: 11px;
+      font-weight: 600;
+      margin: 1px 0.5%;
+      line-height: 24px;
+    }
+
+    .regions-container {
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <a href="#" class="map-link" id="nspd">NSPD</a>
+  <a href="#" class="map-link" id="belcad">CAD.by</a>
+  <a href="#" class="map-link" id="twogis">2GIS</a>
+
+  <div class="regions-container">
+    <a href="#" class="map-link region" id="twogis-uz">UZ</a>
+    <a href="#" class="map-link region" id="twogis-kz">KZ</a>
+    <a href="#" class="map-link region" id="twogis-am">AM</a>
+  </div>
+  
+  <div class="regions-container">
+    <a href="#" class="map-link region" id="twogis-by">BY</a>
+    <a href="#" class="map-link region" id="twogis-az">AZ</a>
+    <a href="#" class="map-link region" id="twogis-ge">GE</a>
+  </div>
+
+  <a href="#" class="map-link" id="google">GoogleMap</a>
+  <a href="#" class="map-link" id="nakarte">NAKARTE</a>
+  <a href="#" class="map-link" id="osm">OSM</a>
+  <a href="#" class="map-link" id="bing">BingMap</a>
+  <a href="#" class="map-link" id="here">HereMap</a>
+  <a href="#" class="map-link" id="wikimapia">Wikimapia</a>
+  <a href="#" class="map-link" id="mapillary">Mapillary</a>
+
+  <div class="regions-container">
+    <a href="#" class="map-link region" id="speedcam">SC</a>
+    <a href="#" class="map-link region" id="radarbase">RB</a>
+    <a href="#" class="map-link region" id="mapcam">MC</a>
+  </div>
+
+  <a href="#" class="map-link" id="retromap">Retromap</a>
+  <a href="#" class="map-link" id="waze">Waze</a>
+  <a href="#" class="map-link" id="pastvu">Pastvu</a>
+  <a href="#" class="map-link" id="egrp">PKK_new</a>
+</body>
+
+</html>
