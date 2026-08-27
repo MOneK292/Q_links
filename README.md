@@ -20,7 +20,8 @@ Q_links - это удобное расширение для браузера, к
   - BY - Беларусь
   - AZ - Азербайджан
   - AM - Армения
-- **GoogleMap** - Google Maps
+- **GM** - Google Maps
+- **GE** - Google Earth
 - **NAKARTE** - nakarte.me
 - **OSM** - OpenStreetMap
 - **BingMap** - Bing Maps

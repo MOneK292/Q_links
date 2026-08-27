@@ -3,9 +3,15 @@
   "name": "Qickly links",
   "version": "1.6.1",
   "description": "Быстрый переход",
-  
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "qickly-links@example.com"
+    }
+  },
+
   "icons": {
-    "128": "pin_blue.png"
+    "640": "pin_blue.png"
   },
 
   "action": {

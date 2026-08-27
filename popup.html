@@ -37,21 +37,20 @@
       background-color: rgb(52, 52, 150);
     }
 
-    .region {
-      display: inline-block;
-      width: 30%;
-      height: 24px;
-      font-size: 11px;
-      font-weight: 600;
-      margin: 1px 0.5%;
-      line-height: 24px;
+    .regions-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 2px;
+        margin: 2px 0;
     }
 
-    .regions-container {
-      text-align: center;
-      margin: 0;
-      padding: 0;
-      width: 100%;
+    .region {
+        flex: 1;
+        height: 24px;
+        line-height: 24px;
+        font-size: 11px;
+        font-weight: 600;
+        margin: 0;
     }
   </style>
 </head>
@@ -73,7 +72,10 @@
     <a href="#" class="map-link region" id="twogis-am">AM</a>
   </div>
 
-  <a href="#" class="map-link" id="google">GoogleMap</a>
+  <div class="regions-container">
+    <a href="#" class="map-link region" id="google">GM</a>
+    <a href="#" class="map-link region" id="google-earth">GE</a>
+  </div>
   <a href="#" class="map-link" id="nakarte">NAKARTE</a>
   <a href="#" class="map-link" id="osm">OSM</a>
   <a href="#" class="map-link" id="bing">BingMap</a>
